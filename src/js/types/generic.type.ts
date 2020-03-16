@@ -23,3 +23,13 @@ export type Menu = GenericObject;
 export type Tooltip = GenericObject;
 
 export type Localization = GenericObject;
+
+export type SourceObj = {
+    type: string;
+    mimeType: string;
+};
+
+export type SeekRange = {
+    start: number;
+    end: number;
+};
